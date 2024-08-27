@@ -5,3 +5,15 @@ Features
 LSTM Model: The model is trained to predict the next word in a given sequence of text.
 Streamlit Interface: A user-friendly web interface to input text and view predictions.
 Tokenization and Padding: The input text is tokenized and padded to match the model's expected input shape.
+
+Code Overview
+Model Loading:
+
+The LSTM model is loaded from next_word_lstm.h5.
+The tokenizer is loaded from tokenizer.pickle.
+Prediction Function:
+
+predict_next_word: Takes the input text, tokenizes it, pads the sequence, and predicts the next word using the LSTM model.
+Streamlit Interface:
+
+A simple interface is provided for users to input text and get predictions.
