@@ -17,3 +17,6 @@ predict_next_word: Takes the input text, tokenizes it, pads the sequence, and pr
 Streamlit Interface:
 
 A simple interface is provided for users to input text and get predictions.
+
+Acknowledgments
+Thanks to the TensorFlow and Streamlit teams for providing the tools to build this application
